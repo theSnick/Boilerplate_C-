@@ -49,6 +49,16 @@ ClassName obj("MyParam");
 ClassName obj;
 - use . for calling functions
 
+//--------------------------------------------------
+// ## Friendship
+//--------------------------------------------------
+
+in .h file:
+class Node {
+    friend class GenericList; // access to all of Node's members
+    friend void doStuff(Node*); // gives access to this method
+    friend void test::next(); // only the next method of "test" will have access to private data
+}
 
 //--------------------------------------------------
 // ## Running the program
