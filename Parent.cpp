@@ -5,7 +5,7 @@
 using namespace std;
 
 Parent::Parent() { // null constructor
-    name = "Nicole";
+    name = "Cool";
 }
 
 Parent::Parent(string name) : name(name) {} // constructor w/ initializer

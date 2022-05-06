@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 
-    Parent* obj = new Child("Nicole", 10);
+    Parent* obj = new Child("Cool", 10);
 
     obj->print();
 

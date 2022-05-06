@@ -1,7 +1,3 @@
-//
-// Created by Nicole Norman on 2022-04-27.
-//
-
 #include "Child.h"
 #include "Parent.h"
 #include <iostream>
